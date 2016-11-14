@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<!--META-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--включает адаптацию на мобильных устройствах-->
+
+	<!--FAVICON-->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
+
+	<!--SEO-->
+	<meta name="Description" content=""> <!--до 250 символов описания сайта, используется поисковыми системами для формирования снипетов (тот текст, что в поисковике выдается снизу от ссылки)-->
+	<meta name="Rating" content=""> <!--если нужно ввети ограничение возрастное, другие специальные ограничения. Его заполнение увеличивает доверие поисковых систем-->
+	<meta name="Author" content=""> 
+	<meta name="Robots" content="index,follow"> <!--Все роботы, которые приходят на этот сайт будут индексировать его принудительно-->
+	
+	<!--CONFIG-->
+	<meta name="format-detection" content="telephone=no"> <!--отменяет перекрашивание телефонов-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--всегда должен присутсвовать для интернет эксплоера, просто поверь, ВСЕГДА-->
+	
+	<!--CSS--> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!--подключать именно в таком порядке, потому что своими стилями мы будем перебивать стили бутстрапа (тоже качается и джавы)-->
+	<link rel="stylesheet" href="main.css">
+	
+
+	<title>Document</title>
+</head>
+<body>
+	
+	<!--[if lt IE 10]>
+		<p class="browsehappy">Вы используете <strong>УСТАРЕВШИЙ Internet Explorer</strong> браузер. Пожалуйста, <a href="http://browsehappy.com">обновите ваш Браузер</a> чтобы увидеть больше возможностей на сайтах!</p>
+	<![endif]-->	
+	
+	<!--Preloader - крутящеесе колесо в момент загрузки сайта--> 
+	<div class="preloader"></div>
+
+	<div class="app"> <!--оборачивающий класс на всякий леший-->
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+					
+						<!--logo-->
+						<div class="lesson_number-wr">
+							<a href="" class="logo"><i class="icon icon-logo"></i>
+							<p class="lesson-number">Start <span class="level">Level 1</span></p></a>
+							<progress max="100" value="79" class="progress-bar">
+							</progress>
+							<p class="lesson-progress">79%</p>
+						</div>	
+
+					</div>
+					<div class="col-md-10">
+
+						<!--header-->
+						<div class="content_header-wr">
+							<div class="row">
+								<div class="col-md-6">
+
+									<div class="personal_data">
+										<a href="" class="avatar"></a>
+										<h2>Ki-Ki Lee Naena</h2>
+										<ul class="rating">
+											<li class="star-red"></li>
+											<li class="star-red"></li>
+											<li class="star-red"></li>
+											<li class="star"></li>
+											<li class="star"></li>
+											<li class="star"></li>
+											<li class="star"></li>
+											<li class="star"></li>
+											<li class="star"></li>
+											<li class="star"></li>
+										</ul>
+										<p class="fight">Студент <span class="start_fight"><i class="icon"></i>Начать поединок</span> против</p>
+										<ul class="fight_list">
+											<li class="fight_member-1"></li>
+											<li class="fight_member-0"></li>
+											<li class="fight_member-1"></li>
+											<li class="fight_member-2"></li>
+											<li class="fight_member-3"></li>
+										</ul>
+										<p class="level"><i class="icon"></i>8.782 опыт</p>
+									</div>
+
+								</div>
+								<div class="col-md-2 col-md-offset-4">
+									
+									<i class="edit"></i> 
+									<i class="exit"></i>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-9">
+									
+									<div class="lesson-bar-wr">
+										<ul class="lessons-bar">
+											<li class="tasks">Задания</li>
+											<li class="lesson">Урок 1</li>
+											<li class="lesson">Урок 2</li>
+											<li class="lesson">Урок 3</li>
+											<li class="lesson">Урок 4</li>
+											<li class="lesson">Урок 5</li>
+											<li class="instruction">Инструкция волшебница</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="col-md-3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="main_section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+
+						<div class="side_bar-wr">
+							<ul compact="side_bar">
+								<li class="side_bar-item"><i class="icon"></i>Основы</li>
+								<li class="side_bar-item"><i class="icon"></i>Премененные</li>
+								<li class="side_bar-item"><i class="icon"></i>Условия</li>
+								<li class="side_bar-item"><i class="icon"></i>Циклы</li>
+								<li class="side_bar-item"><i class="icon"></i>Массивы</li>
+								<li class="side_bar-item"><i class="icon"></i>Функции</li>
+								<li class="side_bar-item"><i class="icon"></i>Объекты</li>
+								<hr>
+								<li class="side_bar-bonus"><i class="icon"></i>Бонус!</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="col-md-10">
+
+						<div class="content-wr">
+
+							<div class="row">
+								<div class="col-md-6">
+
+									<div class="content_video">
+										<video src="" class="lesson_video"></video>
+									</div>
+
+								</div>
+								<div class="col-md-5">
+
+									<div class="conent_picture">
+										<a class=""><i class="icon icon-3d"></i>модель создания собтвенного объекта obj={}</a>
+										<img src="" alt="">
+									</div>
+									
+								</div>
+								<div class="col-md-1">
+
+									<div class="side_counter-wr">
+										<ul class="side_counter">
+											<li class="side_cunter-number-42">42</li>
+											<li class="side_cunter-number-24">24</li>
+											<li class="side_cunter-number-12">12</li>
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									
+									<div class="notes-1-wr">
+										<a href="" class="notes"><i class="icon icon-note"></i> Создание пустого свитка <span class="note-important">abra-codabra</span></a>
+										<textarea class="notes-textarea" name="" id="" cols="30" rows="10"><i class="icon">1</i> abra-codabra</textarea>
+									</div>
+
+									<div class="notes-2-wr">
+										<a href="" class="notes"><i class="icon icon-note"></i> Переписать свиток <span class="note-important">abra-codabra</span> на <span class="note-important">mega-power</span></a>
+										<textarea class="notes-textarea" name="" id="" cols="30" rows="10"><i class="icon">1</i> abra-codabra - mega-power</textarea>
+									</div>
+
+									<div class="notes-3-wr">
+										<a href="" class="notes"><i class="icon icon-note"></i> Для свитка <span class="note-important">abra-codabra</span> выбрать стихию Цифр и наделить его силой со значнием <span class="note-important">42</span></a>
+										<textarea class="notes-textarea" name="" id="" cols="30" rows="10"><i class="icon">1</i> abra-codabra = mega-power</textarea>
+									</div>
+
+								</div>
+								<div class="col-md-5">
+									
+									<div class="chat-wr">
+										<div class="chat-image">
+											<img src="" alt="">
+											<h3>Мистер Бананас</h3>
+											<p>Ваш личный преподаватель</p>
+										</div>
+										<div class="chat">
+											<ul>
+												<li><i class="icon"></i> Hey, dude! Whazzzup?</li>
+												<li><i class="icon"></i> No way, you're totally full of...</li>
+												<li><i class="icon"></i> This colore scheme is too...</li>
+												<li><i class="icon"></i> I am a robot, I have no soul.</li>
+												<li>У вас не осталось бесплатных косультаций</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						
+						<div class="search-wr">
+							<form class="search-form">
+								<input class="search" type="text" placeholder="Поиск">
+								<button class="button-email"><i class="icon"></i></button>
+							</form>
+						</div>
+
+					</div>
+					<div class="col-md-10">
+						
+						<div class="copyright">
+							<small>Хакатон 2016 <i class="icon"></i>все права защищены</small>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>	
+
+	<!--Plugins-->
+	<div class="popup"></div>
+	
+	<!--JS-->
+	<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</body>
+</html>
